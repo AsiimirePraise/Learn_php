@@ -22,6 +22,14 @@ foreach ($person as $key => $value) {
 }
 echo "<br>";
 
+# add to an associative array
+
+$person['County']='Ruka';
+foreach ($person as $key => $value) {
+    echo $key . ": " . $value . " <br>";
+}
+echo "<br>";
+
 // Multidimensional Array
 $employees = array(
     array("name" => "Praise", "position" => "Developer"),
